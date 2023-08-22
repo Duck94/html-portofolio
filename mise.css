@@ -1,0 +1,47 @@
+.a{
+    background-color: aliceblue;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+
+    
+}
+.b{
+    background-color: aqua;
+    width: 200px;
+        height: 150px;
+    padding: 20px 20px;
+    text-align: center;
+}
+.c{
+    background-color: bisque;
+    width: 200px;
+        height: 150px;
+        order: 4;
+    align-self: flex-start;
+}
+.d {
+    background-color: rgb(168, 108, 35);
+    width: 200px;
+        height: 150px;
+}
+.e {
+    background-color: rgb(197, 22, 22);
+    width: 200Px;
+        height: 150px;
+}
+.f {
+    background-color: rgb(49, 203, 21);
+    width: 200px;
+        height: 150px;
+}
+.contener{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+gap: 120px;
+
+
+}

@@ -1,0 +1,184 @@
+h1+a:visited {
+    color: red;
+    
+    
+}
+.paraph3{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 900;
+    text-decoration:overline;
+    width: 50%;
+    position:absolute;
+    top: 10Px;
+    left: 50px;
+}
+#animaux{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+    
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+    background-color: aqua;
+    padding: 30px;
+    background:linear-gradient( to right,155deg,blue,green);
+    text-shadow: 6px 5px 8px burlywood;
+    border: 6px solid blueviolet;
+    border-radius: 10px;
+    margin: 20px;
+    position:sticky;
+    top: 0;
+    
+    
+}
+body{
+    background-color:rgba(233, 33,45,0.1);
+    margin: auto;
+    font-weight: 800;
+    background-image: url('images/Vol1.png');
+    background-attachment:fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+ul[class="fruit"]{
+    border-style: dashed;
+    border-top: 5px darkblue dashed;
+    background-color:antiquewhite;
+    border-radius: 30px ;
+    box-shadow: 6px 5px 9px rgba(113, 33, 233, 0.5);
+
+    
+    
+}
+img[title="gargo militaire"]{
+    border-style: double;
+    margin-left:10rem;
+    
+}
+.paraph2{
+    
+    text-align: justify;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 150px;
+    padding: 10px 15px;
+    overflow:auto;
+    margin: auto;
+    text-overflow: ellipsis;
+    
+}
+.navigation{
+    margin: auto;
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+justify-content: space-around;
+ list-style: none;
+ 
+ 
+ 
+}
+a:hover{
+    color:rgb(11, 185, 104);
+    text-decoration: none;
+    text-shadow: 3px 4px 7px blue;
+    
+
+}
+.nb1{
+    background-color: aqua;
+    
+    align-self: flex-start;
+
+}
+.bloc{
+    position: relative;
+    height: 300px;
+    width: 300Px;
+}
+.blocA{
+    
+    background-color: aquamarine  ;
+    position: absolute;
+left: 0px;
+    top: 90px;
+    width: 80px;
+    height: 60px;
+    border: solid 1px white;
+    z-index: 1;
+}
+.blocB {
+
+    background-color: rgb(138, 127, 255);
+    position: absolute;
+    left: 19px;
+    top: 100px;
+    width: 80px;
+    height: 60px;
+    border: solid 1px white;
+    z-index: 3;
+}
+.blocC {
+
+    background-color: aquamarine;
+    position: absolute;
+    left: 33px;
+    top: 50px;
+    width: 80px;
+    height: 60px;
+    border: solid 1px white;
+    z-index: 2;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+td,th{
+    border:1px solid black;
+    padding: 20px;
+    vertical-align: super   ;
+    
+}
+caption{
+    caption-side: bottom;
+}
+.formulaire{
+    background-color: white;
+    margin: auto;
+    height: 600Px;
+    width: 50%;
+}
+label,input,textarea{
+    margin-left: 20px;
+        margin-top: 20px;
+    
+}
+input:focus{
+background-color: burlywood;
+}
+#enligne{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+@media screen and (max-width:800px) {
+ .paraph2{
+    color:red;
+ }   
+
+ #avion{
+    display: none;
+ }
+}
+
+    
